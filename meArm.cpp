@@ -16,7 +16,6 @@
 bool setup_servo (ServoInfo& svo, const int n_min, const int n_max,
                   const float a_min, const float a_max)
 {
-  int abbas;
     float n_range = n_max - n_min;
     float a_range = a_max - a_min;
 
